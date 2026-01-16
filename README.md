@@ -1,0 +1,14 @@
+START
+
+DEFINE LED_PIN as GPIO 2
+
+SET LED_PIN as OUTPUT
+
+REPEAT forever
+    SET LED_PIN HIGH
+    WAIT 1 second
+    SET LED_PIN LOW
+    WAIT 1 second
+END REPEAT
+
+END
